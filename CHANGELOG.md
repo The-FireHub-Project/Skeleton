@@ -1,5 +1,10 @@
 # Release Notes for v0.x.x.alpha
 
+## [Unreleased](https://github.com/The-FireHub-Project/Skeleton/compare/v0.1.4...develop-alpha)
+
+### Added
+- Create repositories key ([aa852dc](https://github.com/The-FireHub-Project/Skeleton/commit/aa852dc))
+
 ## [v0.1.4](https://github.com/The-FireHub-Project/Skeleton/compare/v0.1.3...v0.1.4) – (2024-12-10)
 
 ### Added
