@@ -1,0 +1,14 @@
+name: FireHub
+services:
+  app:
+    container_name: app
+    build: ./docker
+    restart: unless-stopped
+    volumes:
+      - ./:/var/www/html
+      - app:/var/www/html/storage/cache
+    ports:
+      - "223:80"
+
+volumes:
+  app:
