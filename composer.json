@@ -1,0 +1,58 @@
+{
+    "name": "firehub/skeleton",
+    "description": "Skeleton App for FireHub Web Application Framework",
+    "type": "project",
+    "keywords": ["php", "skeleton", "firehub"],
+    "homepage": "https://the-firehub-project.github.io/",
+    "license": "OSL-3.0",
+    "require": {
+        "php": "^8.4",
+        "firehub/core": "~0.1",
+        "firehub/core-enterprise": "~0.1"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "https://github.com/The-FireHub-Project/Core-Professional.git"
+        },
+        {
+            "type": "vcs",
+            "url":  "https://github.com/The-FireHub-Project/Core-Enterprise.git"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Danijel Galić",
+            "email": "danijel.galic@outlook.com",
+            "homepage": "https://github.com/dieselxxx",
+            "role": "Owner"
+        }
+    ],
+    "support": {
+        "email": "danijel.galic@outlook.com",
+        "issues": "https://github.com/The-FireHub-Project/Skeleton/issues",
+        "security": "https://github.com/The-FireHub-Project/Skeleton/security/policy",
+        "forum": "https://github.com/orgs/The-FireHub-Project/discussions",
+        "source": "https://github.com/The-FireHub-Project/Skeleton"
+    },
+    "funding": [
+        {
+            "type": "patreon",
+            "url": "https://www.patreon.com/firehub"
+        }
+    ],
+    "config": {
+        "process-timeout": 300,
+        "preferred-install": {
+            "*": "dist"
+        },
+        "disable-tls": false,
+        "secure-http": true,
+        "vendor-dir": "vendor",
+        "bin-dir": "vendor/bin",
+        "prepend-autoloader": false,
+        "sort-packages": true
+    }
+}
