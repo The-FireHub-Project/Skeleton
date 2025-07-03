@@ -1,0 +1,20 @@
+includes:
+    - phar://phpstan.phar/conf/bleedingEdge.neon
+parameters:
+    level: 10
+    paths:
+        - app/
+    treatPhpDocTypesAsCertain: false
+    checkExplicitMixedMissingReturn: true
+    checkFunctionNameCase: true
+    checkInternalClassCaseSensitivity: true
+    reportMaybesInMethodSignatures: true
+    reportMaybesInPropertyPhpDocTypes: true
+    reportPossiblyNonexistentConstantArrayOffset: true
+    reportWrongPhpDocTypeInVarTag: true
+    reportAlwaysTrueInLastCondition: true
+    reportStaticMethodSignatures: true
+    reportUnmatchedIgnoredErrors: false
+    checkUninitializedProperties: true
+    checkImplicitMixed: true
+    tipsOfTheDay: false
