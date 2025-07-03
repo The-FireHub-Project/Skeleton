@@ -1,2 +1,11 @@
 # JetBrains
 .idea/
+
+# Authentication for privately hosted packages and repositories
+auth.json
+
+# Composer dependencies resolver
+composer.lock
+
+# Vendor
+/vendor/
