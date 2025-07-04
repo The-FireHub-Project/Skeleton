@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it using the metadata from this file.
+title: The FireHub Project - Skeleton
+abstract: FireHub Web Application Framework
+type: software
+version: v0.1.0
+date-released: 2025-07-04
+license: OSL-3.0
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.15804455
+    description: The concept DOI of the work.
+  - type: url
+    value: "https://github.com/The-FireHub-Project/Skeleton/releases/tag/v0.1.0"
+    description: The GitHub release URL of this version.
+keywords:
+  - firehub
+  - skeleton
+  - php
+authors:
+  - family-names: Galić
+    given-names: Danijel
+    alias: dieselxxx
+    address: "Privalj b.b. Kočerin"
+    post-code: 88226
+    city: "Široki Brijeg"
+    region: "Hercegovina"
+    country: "BA"
+    email: "danijel.galic@outlook.com"
+    orcid: "https://orcid.org/0000-0002-4447-1352"
+    tel: +387-63-407111
+    website: "https://the-firehub-project.github.io/"
+url: "https://the-firehub-project.github.io/skeleton/"
+repository-code: "https://github.com/The-FireHub-Project/Skeleton"
+repository-artifact: "https://packagist.org/packages/firehub/Skeleton"
