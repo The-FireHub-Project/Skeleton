@@ -7,8 +7,7 @@
     "license": "OSL-3.0",
     "require": {
         "php": "^8.4",
-        "firehub/core": "~0.1",
-        "firehub/core-enterprise": "~0.1"
+        "firehub/core-standard": "~0.1"
     },
     "repositories": [
         {
