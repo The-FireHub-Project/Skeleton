@@ -5,16 +5,20 @@ parameters:
     paths:
         - app/
     treatPhpDocTypesAsCertain: false
+    checkDynamicProperties: true
     checkExplicitMixedMissingReturn: true
     checkFunctionNameCase: true
+    checkImplicitMixed: true
     checkInternalClassCaseSensitivity: true
+    checkTooWideReturnTypesInProtectedAndPublicMethods: true
+    checkUninitializedProperties: true
+    reportAlwaysTrueInLastCondition: true
+    reportAnyTypeWideningInVarTag: true
     reportMaybesInMethodSignatures: true
     reportMaybesInPropertyPhpDocTypes: true
+    reportPossiblyNonexistentGeneralArrayOffset: true
     reportPossiblyNonexistentConstantArrayOffset: true
-    reportWrongPhpDocTypeInVarTag: true
-    reportAlwaysTrueInLastCondition: true
     reportStaticMethodSignatures: true
     reportUnmatchedIgnoredErrors: false
-    checkUninitializedProperties: true
-    checkImplicitMixed: true
+    reportWrongPhpDocTypeInVarTag: true
     tipsOfTheDay: false
