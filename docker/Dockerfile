@@ -1,5 +1,5 @@
 # Use the lastest FireHub Core as the base image
-FROM thefirehubproject/core-standard:v0.1.3
+FROM thefirehubproject/core-standard:v0.1.4
 
 # Copy the apache configuration file
 COPY /000-default.conf /etc/apache2/sites-available/000-default.conf

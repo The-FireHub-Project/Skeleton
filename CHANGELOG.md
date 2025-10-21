@@ -1,5 +1,10 @@
 # Release Notes for v0.x.x.alpha
 
+## [v0.1.3](https://github.com/The-FireHub-Project/Skeleton/compare/v0.1.1...v0.1.2) – (2025-10-21)
+
+### Added
+- Added Kernel to configuration file ([5accffa](https://github.com/The-FireHub-Project/Skeleton/commit/5accffa))
+
 ## [v0.1.2](https://github.com/The-FireHub-Project/Skeleton/compare/v0.1.1...v0.1.2) – (2025-10-21)
 
 ### Added
