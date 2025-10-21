@@ -19,6 +19,7 @@
 require 'phar://'.__DIR__.'/../vendor/firehub/core-standard/phar/core.min.phar/initializers/firehub.FireHubConfigurator.php';
 
 use FireHub\Core\Initializers\FireHubConfigurator;
+use FireHub\Core\Kernel\Console;
 
 /**
  * ### Let there be light
@@ -30,4 +31,5 @@ return new FireHubConfigurator(dirname(__DIR__))
     ->withBootloaders([
         //
     ])
+    ->withKernel(Console::class)
     ->create();
