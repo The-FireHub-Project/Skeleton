@@ -1,5 +1,10 @@
 # Release Notes for v0.x.x.alpha
 
+## [v0.1.2](https://github.com/The-FireHub-Project/Skeleton/compare/v0.1.1...v0.1.2) – (2025-10-21)
+
+### Added
+- Create Bootstrap files ([#29](https://github.com/The-FireHub-Project/Skeleton/issues/29), [9358fc8](https://github.com/The-FireHub-Project/Skeleton/commit/9358fc8))
+
 ## [v0.1.1](https://github.com/The-FireHub-Project/Skeleton/compare/v0.1.0...v0.1.1) – (2025-07-07)
 
 ### Added

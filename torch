@@ -1,22 +1,23 @@
+#!/usr/bin/env php
 <?php declare(strict_types = 1);
 
 /**
  * This file is part of the FireHub Web Application Framework package
  *
- * This is the main app landing file for all HTTP requests.
+ * This is the main app landing file for all Console requests.
  * @since 1.0.0
  *
  * @author Danijel Galić <danijel.galic@outlook.com>
  * @copyright 2025 FireHub Web Application Framework
  * @license <https://opensource.org/licenses/OSL-3.0> OSL Open Source License version 3
  *
- * @package App\Web
+ * @package App
  *
  * @version GIT: $Id$ Blob checksum.
  */
 
 /** ### Register the Composer autoloader */
-require __DIR__.'/../vendor/autoload.php';
+require __DIR__.'/vendor/autoload.php';
 
 /** ### Bootstrap FireHub Framework */
-echo (require __DIR__.'/../bootstrap/app.php')->boot();
+echo (require __DIR__.'/bootstrap/console.php')->boot();
