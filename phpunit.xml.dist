@@ -11,4 +11,7 @@
             <directory suffix=".php">app</directory>
         </include>
     </source>
+    <php>
+        <ini name="error_reporting" value="E_ALL &amp; ~E_WARNING &amp; ~E_NOTICE &amp; ~E_DEPRECATED" />
+    </php>
 </phpunit>
