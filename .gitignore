@@ -1,6 +1,10 @@
 # JetBrains
 .idea/
 
+# OS files
+.DS_Store
+Thumbs.db
+
 # Authentication for privately hosted packages and repositories
 auth.json
 
