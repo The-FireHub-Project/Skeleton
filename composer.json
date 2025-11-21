@@ -9,6 +9,21 @@
         "php": "^8.5",
         "firehub/core-standard": "~0.1"
     },
+    "require-dev": {
+        "phpstan/phpstan": "^2.0",
+        "phpunit/phpunit": "^12.0",
+        "pestphp/pest": "^4",
+        "pestphp/pest-plugin-type-coverage": "^4",
+        "pestphp/pest-plugin-stressless": "^4",
+        "pestphp/pest-plugin-profanity": "^4",
+        "pestphp/pest-plugin-browser": "^4",
+        "pestphp/pest-plugin-faker": "^4",
+        "pestphp/pest-plugin-arch": "^4",
+        "ext-zip": "*",
+        "ext-curl": "*",
+        "ext-openssl": "*",
+        "ext-sockets": "*"
+    },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "authors": [
