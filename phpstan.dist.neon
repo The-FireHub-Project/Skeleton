@@ -4,6 +4,8 @@ parameters:
     level: 10
     paths:
         - app/
+    bootstrapFiles:
+        - bootstrap/console.php
     treatPhpDocTypesAsCertain: false
     checkDynamicProperties: true
     checkExplicitMixedMissingReturn: true
