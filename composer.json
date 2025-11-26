@@ -57,6 +57,9 @@
         "vendor-dir": "vendor",
         "bin-dir": "vendor/bin",
         "prepend-autoloader": false,
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
     }
 }
