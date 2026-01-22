@@ -8,3 +8,9 @@
 # OS files
 .DS_Store
 Thumbs.db
+
+# Composer dependencies resolver
+composer.lock
+
+# Vendor
+/vendor/
