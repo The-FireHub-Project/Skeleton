@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it using the metadata from this file.
+title: The FireHub Project - Skeleton
+abstract: A ready-to-use skeleton repository for FireHub applications, providing a clean structure, Core integration, and support for multiple adapters.
+type: software
+license: MIT
+
+url: "https://the-firehub-project.github.io/skeleton"
+repository-code: "https://github.com/The-FireHub-Project/Skeleton"
+repository-artifact: "https://packagist.org/packages/firehub/skeleton"
+
+authors:
+  - family-names: Galić
+    given-names: Danijel
+    alias: dieselxxx
+    orcid: "https://orcid.org/0000-0002-4447-1352"
+    website: "https://github.com/dieselxxx"
+
+  - name: The FireHub Project
+    address: "Privalj b.b. Kočerin"
+    post-code: 88226
+    city: "Široki Brijeg"
+    region: "Hercegovina"
+    country: "BA"
+    email: "danijel.galic@outlook.com"
+    tel: +38763407111
+    website: "https://the-firehub-project.github.io"
+
+keywords:
+  - php
+  - framework
+  - skeleton
+  - firehub
+
+identifiers:
+  - type: url
+    value: "https://github.com/The-FireHub-Project/Skeleton"
+    description: The GitHub URL of this version.
+  - type: other
+    value: "packagist:firehub/skeleton"
