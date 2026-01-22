@@ -1,0 +1,61 @@
+{
+  "name": "firehub/skeleton",
+  "description": "A ready-to-use skeleton repository for FireHub applications, providing a clean structure, Core integration, and support for multiple adapters",
+  "type": "library",
+  "keywords": ["php", "framework", "skeleton", "firehub"],
+  "homepage": "https://the-firehub-project.github.io/Skeleton",
+  "license": "MIT",
+  "require": {
+    "php": "^8.5"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "authors": [
+    {
+      "name": "Danijel Galić",
+      "email": "danijel.galic@outlook.com",
+      "homepage": "https://github.com/dieselxxx",
+      "role": "Owner"
+    }
+  ],
+  "support": {
+    "email": "danijel.galic@outlook.com",
+    "forum": "https://github.com/orgs/The-FireHub-Project/discussions",
+    "source": "https://github.com/The-FireHub-Project/Skeleton",
+    "docs": "https://the-firehub-project.github.io/Skeleton",
+    "security": "https://github.com/The-FireHub-Project/Skeleton/security/policy"
+  },
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/The-FireHub-Project"
+    }
+  ],
+  "config": {
+    "process-timeout": 900,
+    "preferred-install": {
+      "*": "dist"
+    },
+    "notify-on-install": true,
+    "github-protocols": ["https", "ssh", "git"],
+    "disable-tls": false,
+    "secure-http": true,
+    "vendor-dir": "vendor",
+    "archive-format": "tar",
+    "archive-dir": ".",
+    "bin-dir": "vendor/bin",
+    "bin-compat": "auto",
+    "prepend-autoloader": false,
+    "autoloader-suffix": "null",
+    "optimize-autoloader": false,
+    "classmap-authoritative": false,
+    "apcu-autoloader": false,
+    "htaccess-protect": true,
+    "lock": true,
+    "platform-check": true,
+    "sort-packages": true,
+    "allow-missing-requirements": false,
+    "store-auths": "prompt",
+    "use-parent-dir": "prompt"
+  }
+}
