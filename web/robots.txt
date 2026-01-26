@@ -1,5 +1,5 @@
 #
-# This file is part of the FireHub Web Application Framework package
+# This file is part of the FireHub Project ecosystem
 #
 # Robots.txt is a text file webmasters create to instruct web robots (typically search engine robots) how to crawl pages
 # on their website.
