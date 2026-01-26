@@ -6,8 +6,8 @@
 # @since 1.0.0
 #
 # @author Danijel Galić <danijel.galic@outlook.com>
-# @copyright 2026 FireHub Web Application Framework
-# @license <https://opensource.org/licenses/MIT> MIT License
+# @copyright 2026 The FireHub Project - All rights reserved
+# @license https://opensource.org/licenses/MIT MIT License
 #
 # @package App\Web
 #
