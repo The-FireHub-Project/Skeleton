@@ -1,0 +1,18 @@
+#
+# This file is part of the FireHub Web Application Framework package
+#
+# Robots.txt is a text file webmasters create to instruct web robots (typically search engine robots) how to crawl pages
+# on their website.
+# @since 1.0.0
+#
+# @author Danijel Galić <danijel.galic@outlook.com>
+# @copyright 2026 FireHub Web Application Framework
+# @license <https://opensource.org/licenses/MIT> MIT License
+#
+# @package App\Web
+#
+# @version GIT: $Id$ Blob checksum.
+#
+
+User-agent: *
+Disallow:
