@@ -1,0 +1,35 @@
+#
+# This file is part of the FireHub Project ecosystem
+#
+# Hypertext Access file is a configuration file for directory-level web server settings and URL rewriting.
+# @since 1.0.0
+#
+# @author Danijel Galić <danijel.galic@outlook.com>
+# @copyright 2026 The FireHub Project - All rights reserved
+# @license https://opensource.org/licenses/MIT MIT License
+#
+# @package App\Web
+#
+# @version GIT: $Id$ Blob checksum.
+#
+
+<IfModule mod_rewrite.c>
+
+  <IfModule mod_negotiation.c>
+    Options -MultiViews -Indexes
+  </IfModule>
+
+  DirectoryIndex index.php
+
+  RewriteEngine On
+
+  # Add HTTP_AUTHORIZATION header
+  RewriteCond %{HTTP:Authorization} .+
+  RewriteRule ^ - [E=HTTP_AUTHORIZATION:%0]
+
+  # Front controller: redirect non-existing files/folders to index.php
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^ index.php [L]
+
+</IfModule>
