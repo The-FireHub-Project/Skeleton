@@ -31,7 +31,7 @@ This repository provides a clean folder structure and example setup to get start
   /></a>
   <a href="https://github.com/The-FireHub-Project/Skeleton">
     <img
-      src="https://img.shields.io/github/v/release/The-FireHub-Project/Skeleton?style=flat&logo=github&logoColor=959da5&label=release%20date&labelColor=31373e"
+      src="https://img.shields.io/github/release-date-pre/The-FireHub-Project/Skeleton?display_date=published_at&style=flat&logo=github&logoColor=959da5&label=release%20date&labelColor=31373e"
       alt="GitHub release date"
   /></a>
   <a href="https://github.com/The-FireHub-Project/Skeleton/commits/master/">
