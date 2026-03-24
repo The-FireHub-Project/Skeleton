@@ -12,5 +12,8 @@ Thumbs.db
 # Composer dependencies resolver
 composer.lock
 
+# Storage folder for runtime-generated files
+/storage/
+
 # Vendor
 /vendor/
