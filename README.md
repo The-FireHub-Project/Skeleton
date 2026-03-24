@@ -41,24 +41,24 @@
 ### Pull request
 
 <p>
-  <a href="https://github.com/The-FireHub-Project/Skeleton/pull/2/">
+  <a href="https://github.com/The-FireHub-Project/Skeleton/pull/8/">
     <img
-      src="https://img.shields.io/github/pulls/detail/title/The-FireHub-Project/Skeleton/2?style=flat&logo=github&logoColor=959da5&label=title&labelColor=31373e"
+      src="https://img.shields.io/github/pulls/detail/title/The-FireHub-Project/Skeleton/8?style=flat&logo=github&logoColor=959da5&label=title&labelColor=31373e"
       alt="GitHub pull request title"
   /></a>
-  <a href="https://github.com/The-FireHub-Project/Skeleton/pull/2/">
+  <a href="https://github.com/The-FireHub-Project/Skeleton/pull/8/">
     <img
-      src="https://img.shields.io/github/pulls/detail/author/The-FireHub-Project/Skeleton/2?style=flat&logo=github&logoColor=959da5&labelColor=31373e"
+      src="https://img.shields.io/github/pulls/detail/author/The-FireHub-Project/Skeleton/8?style=flat&logo=github&logoColor=959da5&labelColor=31373e"
       alt="GitHub pull request author"
   /></a>
-  <a href="https://github.com/The-FireHub-Project/Skeleton/pull/2/">
+  <a href="https://github.com/The-FireHub-Project/Skeleton/pull/8/">
     <img
-      src="https://img.shields.io/github/pulls/detail/age/The-FireHub-Project/Skeleton/2?style=flat&logo=github&logoColor=959da5&labelColor=31373e"
+      src="https://img.shields.io/github/pulls/detail/age/The-FireHub-Project/Skeleton/8?style=flat&logo=github&logoColor=959da5&labelColor=31373e"
       alt="GitHub pull request created"
   /></a>
-  <a href="https://github.com/The-FireHub-Project/Skeleton/pull/2/">
+  <a href="https://github.com/The-FireHub-Project/Skeleton/pull/8/">
     <img
-      src="https://img.shields.io/github/pulls/detail/comments/The-FireHub-Project/Skeleton/2?style=flat&logo=github&logoColor=959da5&labelColor=31373e"
+      src="https://img.shields.io/github/pulls/detail/comments/The-FireHub-Project/Skeleton/8?style=flat&logo=github&logoColor=959da5&labelColor=31373e"
       alt="GitHub pull request comments"
   /></a>
 </p>
