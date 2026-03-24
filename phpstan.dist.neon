@@ -1,0 +1,25 @@
+includes:
+  - phar://phpstan.phar/conf/bleedingEdge.neon
+  - vendor/phpstan/phpstan-strict-rules/rules.neon
+
+parameters:
+  level: max
+  paths:
+    - app/
+  tmpDir: storage/cache/phpstan/
+  ignoreErrors:
+    - identifier: ternary.shortNotAllowed
+
+  checkImplicitMixed: true
+  checkMissingTypehints: true
+  checkTooWideReturnTypesInProtectedAndPublicMethods: true
+  checkUninitializedProperties: true
+  reportAlwaysTrueInLastCondition: true
+  reportAnyTypeWideningInVarTag: true
+  reportMaybesInMethodSignatures: true
+  reportMaybesInPropertyPhpDocTypes: true
+  reportPossiblyNonexistentGeneralArrayOffset: true
+  reportPossiblyNonexistentConstantArrayOffset: true
+  reportStaticMethodSignatures: true
+  reportUnmatchedIgnoredErrors: false
+  treatPhpDocTypesAsCertain: false
