@@ -6,7 +6,18 @@
   "homepage": "https://the-firehub-project.github.io/Skeleton",
   "license": "MIT",
   "require": {
-    "php": "^8.5"
+    "php": "^8.5",
+    "firehub/core-foundation": "~0.2"
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^2.0",
+    "phpstan/phpstan-strict-rules": "^2.0",
+    "phpunit/phpunit": "^13.0"
+  },
+  "autoload": {
+    "files": [
+      "vendor/firehub/core-foundation/phar/core.phar"
+    ]
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
