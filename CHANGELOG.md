@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 - Add bootstrap/app.php and update composer.json for Bootstrap integration (pr: [#8](https://github.com/The-FireHub-Project/Skeleton/pull/8), commit: [`7531d34`](https://github.com/The-FireHub-Project/Skeleton/commit/7531d34))
+- Integrate FireHub Framework Bootstrap in `index.php` (pr: [#8](https://github.com/The-FireHub-Project/Skeleton/pull/8), commit: [`316a6db`](https://github.com/The-FireHub-Project/Skeleton/commit/316a6db))
+- Add PHPUnit and PHPStan configuration files, update `.gitignore` (pr: [#8](https://github.com/The-FireHub-Project/Skeleton/pull/8), commit: [`c0798e8`](https://github.com/The-FireHub-Project/Skeleton/commit/c0798e8))
 
 ## [v0.1.1](https://github.com/The-FireHub-Project/Skeleton/compare/v0.1.0...v0.1.1) – 2026-02-24
 
