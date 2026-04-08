@@ -10,8 +10,6 @@
 #
 # @package App\Web
 #
-# @version GIT: $Id$ Blob checksum.
-#
 
 <IfModule mod_rewrite.c>
 

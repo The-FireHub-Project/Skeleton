@@ -11,8 +11,6 @@
 #
 # @package App\Web
 #
-# @version GIT: $Id$ Blob checksum.
-#
 
 User-agent: *
 Disallow:
